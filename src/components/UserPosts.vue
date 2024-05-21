@@ -140,7 +140,7 @@
   
   .todos {
     list-style-type: none;
-    padding: 0;
+    padding: 1;
   }
   
   .todos li {

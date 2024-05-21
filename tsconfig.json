@@ -17,6 +17,12 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "jsx.d.ts" // Tambahkan baris ini untuk menyertakan file tipe khusus
+  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
